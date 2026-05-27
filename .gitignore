@@ -1,0 +1,134 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# IDE / Editors
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Database
+# ==========================
+*.db
+*.sqlite3
+
+# ==========================
+# Uploads / OCR Images
+# ==========================
+uploads/
+receipts/
+temp/
+ocr_output/
+parsed_receipts/
+
+# Keep folder structure
+!uploads/.gitkeep
+!receipts/.gitkeep
+
+# ==========================
+# Build / Distribution
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# Alembic
+# ==========================
+alembic/versions/__pycache__/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Secrets
+# ==========================
+secrets.json
+credentials.json
+service-account.json
+firebase-admin.json
+
+# Gemini Keys
+gemini_key.txt
+api_keys.txt
+
+# ==========================
+# Generated Reports
+# ==========================
+exports/
+reports/
+generated/
+pdfs/
+csv/
+xlsx/
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+cache/
+*.tmp
+*.bak
+
+# ==========================
+# Node (if frontend added later)
+# ==========================
+node_modules/
+.next/
+dist-frontend/
+
+# ==========================
+# Media
+# ==========================
+*.mp4
+*.mov
+*.avi
+
+# Ignore large images
+*.webp
+*.heic
