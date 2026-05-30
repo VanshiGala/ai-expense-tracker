@@ -8,7 +8,6 @@ from app.config.settings import settings #loads env
 pytesseract.pytesseract.tesseract_cmd = settings.OCR_PATH
 
 
-
 def extract_text(image_path: str):
     image = Image.open(image_path)
 
